@@ -69,7 +69,8 @@ export default function Projects() {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 w-full">
           <div className="project-card relative overflow-hidden rounded-3xl shadow-2xl shadow-black/10 h-[70vh] md:h-[80vh] cursor-pointer bg-[#f4f1ea]">
-            <Image
+            <a href="https://serdar-akova-portfolio.vercel.app/work/shining-brows-app">
+              <Image
               src="/shiningbrows_app_mainscreen.png"
               alt="Shining Brows App"
               fill
@@ -77,11 +78,13 @@ export default function Projects() {
               className="object-cover object-top"
               priority
             />
+            </a>
           </div>
 
           <div className="flex flex-col gap-6 md:gap-8 h-[70vh] md:h-[80vh]">
             <div className="project-card relative overflow-hidden rounded-3xl shadow-2xl shadow-black/10 flex-1 cursor-pointer">
-              <Image
+              <a href="https://serdar-akova-portfolio.vercel.app/work/velora">
+                <Image
                 src="/velora_calendar.png"
                 alt="Velora"
                 fill
@@ -89,9 +92,11 @@ export default function Projects() {
                 className="object-cover object-top"
                 priority
               />
+              </a>
             </div>
             <div className="project-card relative overflow-hidden rounded-3xl shadow-2xl shadow-black/10 flex-1 cursor-pointer">
-              <Image
+              <a href="https://serdar-akova-portfolio.vercel.app/work/shining-brows-website">
+                <Image
                 src="/shiningbrows_website_hero.png"
                 alt="Shining Brows Website"
                 fill
@@ -99,6 +104,7 @@ export default function Projects() {
                 className="object-cover object-top"
                 priority
               />
+              </a>
             </div>
           </div>
         </div>

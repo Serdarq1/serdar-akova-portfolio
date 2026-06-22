@@ -138,6 +138,7 @@ export default function AllWork() {
 
   return (
     <section
+      id="all-work"
       ref={rootRef}
       className="relative w-full bg-[#f4f1ea] text-black overflow-hidden"
     >

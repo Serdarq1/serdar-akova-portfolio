@@ -89,7 +89,7 @@ export default function Navbar() {
         <nav className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-10 text-black">
           {[
             { label: "About", href: "#about" },
-            { label: "Projects", href: "#projects" },
+            { label: "Projects", href: "#all-work" },
           ].map((link) => (
             <a
               key={link.label}

@@ -389,7 +389,7 @@ export default function ProjectPage({ project }: { project: Project }) {
 
       <div className="fixed top-0 left-0 w-full z-50 px-5 sm:px-8 md:px-12 py-5 md:py-6 flex items-center justify-between font-manrope text-[0.78rem] tracking-tight backdrop-blur-xl bg-[#f4f1ea]/40 border-b border-black/5">
         <Link
-          href="/#projects"
+          href="/#all-work"
           className="group inline-flex items-center gap-2 uppercase tracking-tight text-black"
         >
           <svg
@@ -511,7 +511,7 @@ export default function ProjectPage({ project }: { project: Project }) {
             More Work
           </h3>
           <Link
-            href="/#projects"
+            href="/#all-work"
             className="font-manrope uppercase tracking-tight text-xs md:text-sm text-black/70 hover:text-black inline-flex items-center gap-2"
           >
             All Projects
