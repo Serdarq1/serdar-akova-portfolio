@@ -201,7 +201,7 @@ export default function Hero() {
       </h1>
 
       <p className="hero-desc font-manrope mt-8 md:mt-10 max-w-2xl text-center text-black tracking-tight text-lg md:text-xl leading-snug px-4">
-        who builds websites that lasts and products that become valuable.
+        who builds websites that last and products that become valuable.
       </p>
 
       <p className="hero-bio font-manrope mt-5 max-w-xl text-center text-black tracking-tight text-sm md:text-base leading-relaxed px-6">

@@ -251,14 +251,14 @@ export const projects: Project[] = [
   {
     slug: "eymen-karadeniz-portfolio",
     title: "Eymen Karadeniz Portfolio",
-    tagline: "An award-quality editorial portfolio.",
+    tagline: "A professional editorial portfolio.",
     hero: { type: "image", src: "/eymen_hero.png", alt: "Eymen hero" },
     date: "2026",
     location: "Türkiye",
     services: ["Web Design", "Three.js", "GSAP", "Framer Motion"],
     website: "https://eymen-portfolio.vercel.app/",
     intro:
-      "An editorial portfolio with a hand-animated 3D hero, smooth Lenis-driven scroll, and a typographic system tuned for awards-show pacing.",
+      "An editorial portfolio with a hand-animated 3D hero, smooth Lenis-driven scroll, and a typographic system.",
     sections: [
       {
         kind: "fullscreen",
