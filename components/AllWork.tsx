@@ -145,7 +145,7 @@ export default function AllWork() {
       <div className="min-h-screen flex items-center justify-center px-6">
         <h2
           ref={headlineRef}
-          className="font-eb-garamond text-center text-[clamp(2.5rem,9vw,10rem)] leading-[0.95] tracking-[-0.04em] max-w-[1500px]"
+          className="font-instrument-serif text-center text-[clamp(2.5rem,9vw,10rem)] leading-[0.95] tracking-[-0.04em] max-w-[1500px]"
         >
           Creating digital products
           <br />
@@ -158,9 +158,9 @@ export default function AllWork() {
           <h3 className="font-manrope uppercase tracking-tight text-sm text-black/60">
             All Work
           </h3>
-          <p className="font-manrope max-w-md text-black/55 text-sm leading-relaxed tracking-tight">
+          <p className="font-instrument-serif max-w-md text-black/75 text-lg leading-relaxed tracking-tight">
             A selection of recent products, editorial sites, 3D experiences, and
-            growth campaigns — design, engineering, and brand built end-to-end.
+            growth campaigns. Design, engineering, and brand built end-to-end.
           </p>
         </div>
 

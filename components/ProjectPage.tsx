@@ -137,7 +137,7 @@ const renderSection = (section: Section, i: number) => {
           }`}
         >
           <div className="max-w-xl">
-            <h3 className="project-text-title font-eb-garamond text-3xl md:text-5xl tracking-[-0.02em] leading-[1.05] mb-6 text-black">
+            <h3 className="project-text-title font-instrument-serif text-3xl md:text-5xl tracking-[-0.02em] leading-[1.05] mb-6 text-black">
               {section.title}
             </h3>
             <p className="project-text-body font-manrope text-base md:text-lg leading-relaxed text-black/70 tracking-tight">
@@ -440,10 +440,10 @@ export default function ProjectPage({ project }: { project: Project }) {
         className="px-4 md:px-12 pt-10 md:pt-14 pb-12 md:pb-20 grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-start"
       >
         <div className="md:col-span-7 max-w-3xl">
-          <h1 className="reveal font-eb-garamond text-4xl md:text-7xl leading-[0.95] tracking-[-0.03em] text-black">
+          <h1 className="reveal font-instrument-serif text-4xl md:text-7xl leading-[0.95] tracking-[-0.03em] text-black">
             {project.title}
           </h1>
-          <h2 className="reveal font-eb-garamond text-2xl md:text-4xl leading-tight tracking-[-0.02em] text-black/55 mt-4 md:mt-6">
+          <h2 className="reveal font-instrument-serif text-2xl md:text-4xl leading-tight tracking-[-0.02em] text-black/55 mt-4 md:mt-6">
             {project.tagline}
           </h2>
           {project.intro && (
@@ -507,7 +507,7 @@ export default function ProjectPage({ project }: { project: Project }) {
 
       <section className="border-t border-black/5 px-4 md:px-12 pt-16 md:pt-24 pb-20 md:pb-28">
         <div className="flex items-end justify-between mb-10 md:mb-14">
-          <h3 className="font-eb-garamond text-3xl md:text-5xl tracking-[-0.02em] leading-[1.05] text-black">
+          <h3 className="font-instrument-serif text-3xl md:text-5xl tracking-[-0.02em] leading-[1.05] text-black">
             More Work
           </h3>
           <Link
@@ -548,7 +548,7 @@ export default function ProjectPage({ project }: { project: Project }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent pointer-events-none" />
                 <div className="absolute bottom-0 left-0 right-0 p-6 md:p-7 flex items-end justify-between gap-4">
                   <div>
-                    <p className="font-eb-garamond text-xl md:text-2xl tracking-[-0.02em] leading-tight text-white">
+                    <p className="font-instrument-serif text-xl md:text-2xl tracking-[-0.02em] leading-tight text-white">
                       {p.title}
                     </p>
                     <p className="font-manrope text-xs md:text-sm text-white/70 tracking-tight mt-1.5">

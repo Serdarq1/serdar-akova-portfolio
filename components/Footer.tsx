@@ -145,10 +145,10 @@ export default function Footer() {
 
       <div
         ref={bigRef}
-        className="mt-12 text-center font-eb-garamond font-medium text-black select-none whitespace-nowrap leading-[0.85]"
+        className="mt-12 text-center font-instrument-serif font-medium text-black select-none whitespace-nowrap leading-[0.85]"
         style={{
           fontSize: "clamp(2.5rem, 13vw, 15rem)",
-          letterSpacing: "-0.04em",
+          letterSpacing: "0.18em",
           transform: "translateY(28%)",
         }}
       >

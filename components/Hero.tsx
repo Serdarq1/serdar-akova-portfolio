@@ -172,13 +172,13 @@ export default function Hero() {
         Serdar Akova
       </span>
 
-      <p className="mt-20 md:mt-12 hero-intro font-manrope text-base md:text-base tracking-tight text-black mb-6 md:mb-8">
+      <p className="mt-20 md:mt-12 hero-intro font-instrument-serif text-base md:text-base tracking-tight text-black mb-6 md:mb-8">
         I&apos;m Serdar Akova<span className="text-black/60">*</span>
       </p>
 
       <h1
         ref={headlineRef}
-        className="font-eb-garamond text-center font-semibold leading-[0.95] w-full max-w-[1500px] mx-auto px-2"
+        className="font-instrument-serif text-center leading-[0.95] w-full max-w-[1500px] mx-auto px-2"
         style={{
           fontSize: "clamp(3.2rem, 13.5vw, 10.5rem)",
           letterSpacing: "-0.035em",

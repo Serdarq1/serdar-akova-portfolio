@@ -81,7 +81,7 @@ export default function Navbar() {
       <header className="fixed top-0 left-0 w-full z-50 px-5 sm:px-8 md:px-12 py-4 md:py-6 flex items-center justify-between font-manrope text-[0.72rem] sm:text-[0.78rem] tracking-tight backdrop-blur-xl bg-white/30 border-b border-black/5">
         <a
           href="#top"
-          className="uppercase tracking-tight font-medium text-black"
+          className="uppercase font-instrument-serif text-[0.95rem] tracking-tight font-medium text-black"
         >
           Serdar Akova
         </a>

@@ -122,7 +122,7 @@ export default function Expertise() {
       >
         <div className="w-screen h-full shrink-0 flex flex-col items-start justify-center px-16 text-left">
           <h2
-            className="font-eb-garamond font-medium leading-[0.95]"
+            className="font-instrument-serif font-medium leading-[0.95]"
             style={{
               fontSize: "clamp(3rem, 11vw, 12rem)",
               letterSpacing: "-0.04em",
@@ -164,7 +164,7 @@ export default function Expertise() {
                   0{i + 1} / 0{totalSlides - 1}
                 </p>
               </div>
-              <h3 className="font-manrope text-5xl md:text-7xl tracking-tight leading-[0.95]">
+              <h3 className="font-instrument-serif text-5xl md:text-7xl tracking-tight leading-[0.95]">
                 {it.title}
               </h3>
               <div className="h-px bg-white/20 my-8 w-2/3" />
